@@ -2,6 +2,8 @@
 layout: default
 title: Über mich
 language: de
+permalink: /de/about/
+translation: about
 ---
 
 <h1>Über mich</h1>
