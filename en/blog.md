@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+language: en
 ---
 
 <h1>Psychology Blog</h1>
