@@ -2,7 +2,7 @@
 layout: default
 title: Home
 language: en
-permalink: /en/home/
+permalink: /en/
 translation: home
 ---
 
