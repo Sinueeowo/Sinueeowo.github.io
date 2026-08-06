@@ -1,1 +1,91 @@
+---
+---
 
+body {
+
+    font-family: "Helvetica Neue", Arial, sans-serif;
+
+    background: #fff8fa;
+
+    color: #333;
+
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 30px;
+
+}
+
+
+
+nav {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    margin-bottom: 50px;
+
+}
+
+
+nav a {
+
+    color: #8b5e83;
+
+    text-decoration: none;
+
+}
+
+
+.languages {
+
+    margin-left: auto;
+
+}
+
+
+
+.hero {
+
+    text-align: center;
+
+    padding: 60px 20px;
+
+}
+
+
+.hero h1 {
+
+    font-size: 3rem;
+
+    color: #7b4b6f;
+
+}
+
+
+
+article {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+}
+
+
+
+footer {
+
+    text-align: center;
+
+    margin-top: 60px;
+
+    color: #777;
+
+}
