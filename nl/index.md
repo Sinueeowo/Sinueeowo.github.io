@@ -2,7 +2,7 @@
 layout: default
 title: Home
 language: nl
-permalink: /nl/home/
+permalink: /nl/
 translation: home
 ---
 
