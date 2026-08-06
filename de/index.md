@@ -2,7 +2,7 @@
 layout: default
 title: Startseite
 language: de
-permalink: /de/home/
+permalink: /de/
 translation: home
 ---
 
