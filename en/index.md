@@ -63,38 +63,16 @@ Learn more about me →
 
 <h2>Featured Articles</h2>
 
-
 <div class="card">
 
 <h3>
-Why Is Change So Difficult?
+Coming Soon
 </h3>
 
 <p>
-Understanding habits, motivation, and the psychological processes
-behind lasting behaviour change.
+Psychology articles exploring behaviour, motivation, and human decision-making
+will appear here soon.
 </p>
-
-<a href="#">
-Read article →
-</a>
-
-</div>
-
-
-<div class="card">
-
-<h3>
-The Psychology of Everyday Decisions
-</h3>
-
-<p>
-Exploring how our thoughts, emotions, and environment shape the choices we make.
-</p>
-
-<a href="#">
-Read article →
-</a>
 
 </div>
 
@@ -105,34 +83,54 @@ Read article →
 <div class="topics">
 
 <div class="topic-card">
-<h3>🧠 Behaviour Change</h3>
+
+<h3>
+🧠 Behaviour Change
+</h3>
+
 <p>
 How people develop, maintain, and change behaviours.
 </p>
+
 </div>
 
 
 <div class="topic-card">
-<h3>💬 Everyday Psychology</h3>
+
+<h3>
+💬 Everyday Psychology
+</h3>
+
 <p>
 Psychological concepts explained through everyday examples.
 </p>
+
 </div>
 
 
 <div class="topic-card">
-<h3>🌱 Sustainability Psychology</h3>
+
+<h3>
+🌱 Sustainability Psychology
+</h3>
+
 <p>
 Understanding why people do or do not make sustainable choices.
 </p>
+
 </div>
 
 
 <div class="topic-card">
-<h3>🔬 Research Explained</h3>
+
+<h3>
+🔬 Research Explained
+</h3>
+
 <p>
 Making psychological research understandable and accessible.
 </p>
+
 </div>
 
 </div>
@@ -141,20 +139,12 @@ Making psychological research understandable and accessible.
 
 <div class="card">
 
-<h2>Latest Articles</h2>
-
-{% for post in site.posts limit:3 %}
-
-<h3>
-<a href="{{ post.url }}">
-{{ post.title }}
-</a>
-</h3>
+<h2>
+Latest Articles
+</h2>
 
 <p>
-{{ post.excerpt }}
+Blog posts will appear here soon.
 </p>
-
-{% endfor %}
 
 </div>
