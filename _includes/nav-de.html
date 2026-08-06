@@ -3,19 +3,37 @@
 <div class="nav-links">
 
 <a href="{{ '/de/' | relative_url }}">Startseite</a>
-<a href="{{ '/de/about' | relative_url }}">Über mich</a>
-<a href="{{ '/de/blog' | relative_url }}">Blog</a>
-<a href="{{ '/de/cv' | relative_url }}">Lebenslauf</a>
-<a href="{{ '/de/contact' | relative_url }}">Kontakt</a>
+<a href="{{ '/de/about/' | relative_url }}">Über mich</a>
+<a href="{{ '/de/blog/' | relative_url }}">Blog</a>
+<a href="{{ '/de/cv/' | relative_url }}">Lebenslauf</a>
+<a href="{{ '/de/contact/' | relative_url }}">Kontakt</a>
 
 </div>
 
 
 <div class="languages">
 
+{% if page.translation %}
+
+<a href="{{ '/en/' | append: page.translation | append: '/' | relative_url }}">
+🇬🇧 EN
+</a>
+
+<a href="{{ '/de/' | append: page.translation | append: '/' | relative_url }}">
+🇩🇪 DE
+</a>
+
+<a href="{{ '/nl/' | append: page.translation | append: '/' | relative_url }}">
+🇳🇱 NL
+</a>
+
+{% else %}
+
 <a href="{{ '/en/' | relative_url }}">🇬🇧 EN</a>
 <a href="{{ '/de/' | relative_url }}">🇩🇪 DE</a>
 <a href="{{ '/nl/' | relative_url }}">🇳🇱 NL</a>
+
+{% endif %}
 
 </div>
 
