@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+language: en
 ---
 
 <h1>Contact</h1>
