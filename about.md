@@ -1,5 +1,8 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: About Me
+---
+
 
 <head>
     <title>About Me - Sophia</title>
