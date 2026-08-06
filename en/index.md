@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+language: en
 ---
 
 <section class="hero">
