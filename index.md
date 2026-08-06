@@ -3,65 +3,77 @@ layout: default
 title: Home
 ---
 
-<section class="intro">
+<section class="hero">
 
-<h2>Understanding human behaviour through psychology</h2>
-
-<p>
-Welcome to my psychology space. Here I explore psychological research,
-behaviour change, and the fascinating ways psychology helps us understand
-ourselves and the world around us.
-</p>
+<h2>
+Understanding human behaviour through psychology
+</h2>
 
 <p>
-My goal is to make psychological science accessible, engaging, and
-connected to everyday life.
+Exploring psychological research, behaviour change,
+and the science behind everyday decisions.
 </p>
 
 </section>
-
-
-<section>
-
-<h2>Featured Articles</h2>
-
-<div class="card">
-
-<h3>Why Is Change So Difficult?</h3>
-
-<p>
-A look into motivation, habits, and the psychology behind lasting behaviour change.
-</p>
-
-<a href="#">Read article →</a>
-
-</div>
 
 
 <div class="card">
 
-<h3>The Psychology of Everyday Decisions</h3>
+<h2>Featured Article</h2>
+
+<h3>
+Why Is Change So Difficult?
+</h3>
 
 <p>
-Exploring how our thoughts, emotions, and environment influence our choices.
+Why do we struggle to change habits, even when we know what is best for us?
+This article explores motivation, automatic behaviour, and the psychology
+behind lasting change.
 </p>
 
-<a href="#">Read article →</a>
+<a class="button" href="#">
+Read article
+</a>
 
 </div>
 
-</section>
 
 
-<section>
+<h2>Latest Articles</h2>
 
-<h2>Topics</h2>
 
-<ul>
-<li>🧠 Behaviour Change</li>
-<li>💬 Social Psychology</li>
-<li>🌱 Sustainability Psychology</li>
-<li>🔬 Research Explained</li>
-</ul>
+{% for post in site.posts limit:3 %}
 
-</section>
+<div class="card">
+
+<h3>
+<a href="{{ post.url }}">
+{{ post.title }}
+</a>
+</h3>
+
+<p>
+{{ post.excerpt }}
+</p>
+
+</div>
+
+{% endfor %}
+
+
+
+<div class="card">
+
+<h2>Explore Topics</h2>
+
+<p>
+🧠 Behaviour Change
+<br>
+💬 Social Psychology
+<br>
+🌱 Sustainability Psychology
+<br>
+🔬 Research Explained
+</p>
+
+</div>
