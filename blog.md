@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Blog
 ---
+
 
 Welcome to my psychology blog!
 
