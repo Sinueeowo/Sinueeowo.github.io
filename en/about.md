@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Me
+language: en
 ---
 
 <h2>Hello, I'm Sophia</h2>
