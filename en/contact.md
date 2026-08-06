@@ -2,7 +2,10 @@
 layout: default
 title: Contact
 language: en
+permalink: /en/contact/
+translation: contact
 ---
+
 
 <h1>Contact</h1>
 
