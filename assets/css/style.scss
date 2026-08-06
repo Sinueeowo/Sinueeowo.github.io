@@ -319,3 +319,55 @@ footer {
     max-width: 600px;
     margin: 25px auto 0;
 }
+
+/* Homepage cards */
+
+.card {
+
+    background: #fffdfd;
+
+    border-radius: 25px;
+
+    padding: 30px;
+
+    margin: 30px auto;
+
+    max-width: 850px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+
+}
+
+
+.card h2 {
+
+    font-size: 2rem;
+
+    margin-bottom: 20px;
+
+}
+
+
+.card h3 {
+
+    font-size: 1.4rem;
+
+}
+
+
+.card a {
+
+    color: #c77d9b;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+}
+
+
+.card a:hover {
+
+    text-decoration: underline;
+
+}
