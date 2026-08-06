@@ -1,6 +1,7 @@
 ---
 layout: default
 title: CV
+language: en
 ---
 
 <h1>Curriculum Vitae</h1>
