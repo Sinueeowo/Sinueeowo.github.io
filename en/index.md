@@ -8,15 +8,32 @@ translation: home
 
 <section class="hero">
 
-<h1>
-Understanding human behaviour
-through psychological science
-</h1>
+<p class="flower">🌸</p>
 
-<p>
-Exploring psychology, behaviour change, and the science behind
-the choices we make every day.
+<div class="hero-profile">
+
+<img
+src="{{ '/assets/images/Sophia 1.jpeg' | relative_url }}"
+alt="Sophia"
+class="profile-photo"
+>
+
+<h1>Sophia</h1>
+
+<p class="subtitle">
+Psychology Communicator
+<br>
+MSc Behaviour Change Psychology
 </p>
+
+<p class="hero-tagline">
+Exploring human behaviour through
+psychological science
+</p>
+
+</div>
+
+<p class="flower">🌸</p>
 
 </section>
 
