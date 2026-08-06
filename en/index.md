@@ -102,7 +102,7 @@ How people develop, maintain, and change behaviours.
 </h3>
 
 <p>
-Psychological concepts explained through everyday examples.
+Psychological concepts explained through simple, everyday examples.
 </p>
 
 </div>
