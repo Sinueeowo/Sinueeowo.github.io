@@ -1,91 +1,190 @@
 ---
 ---
 
+/* Colour palette */
+$background: #fff8f7;
+$card: #ffffff;
+$primary: #b76e8a;
+$dark: #333333;
+$soft-pink: #f5d6df;
+$accent: #8a6a7c;
+
+
 body {
-
     font-family: "Helvetica Neue", Arial, sans-serif;
+    background: $background;
+    color: $dark;
 
-    background: #fff8fa;
-
-    color: #333;
-
-    max-width: 900px;
-
+    max-width: 1000px;
     margin: auto;
-
     padding: 30px;
 
+    line-height: 1.7;
 }
 
 
+/* Navigation */
 
 nav {
 
     display: flex;
-
+    align-items: center;
     justify-content: center;
 
     gap: 25px;
 
-    margin-bottom: 50px;
+    padding: 20px;
+
+    margin-bottom: 40px;
 
 }
 
 
 nav a {
 
-    color: #8b5e83;
+    color: $accent;
 
     text-decoration: none;
 
-}
-
-
-.languages {
-
-    margin-left: auto;
+    font-weight: 500;
 
 }
 
 
+nav a:hover {
+
+    color: $primary;
+
+}
+
+
+/* Hero section */
 
 .hero {
 
     text-align: center;
 
-    padding: 60px 20px;
+    padding: 80px 20px;
 
 }
 
 
 .hero h1 {
 
-    font-size: 3rem;
+    font-size: 3.5rem;
 
-    color: #7b4b6f;
+    color: $primary;
+
+    margin-bottom: 10px;
 
 }
 
 
+.hero p {
+
+    font-size: 1.2rem;
+
+    color: $accent;
+
+}
+
+
+/* Headings */
+
+h1, h2, h3 {
+
+    color: $primary;
+
+}
+
+
+h2 {
+
+    margin-top: 50px;
+
+}
+
+
+/* Cards */
+
+.card {
+
+    background: $card;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    margin: 25px 0;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+
+}
+
+
+.card:hover {
+
+    transform: translateY(-3px);
+
+}
+
+
+/* Buttons */
+
+.button {
+
+    display: inline-block;
+
+    background: $primary;
+
+    color: white;
+
+    padding: 12px 25px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+}
+
+
+.button:hover {
+
+    background: $accent;
+
+}
+
+
+/* Blog posts */
 
 article {
 
-    background: white;
+    background: $card;
 
-    padding: 40px;
+    padding: 45px;
 
     border-radius: 20px;
 
 }
 
 
+.date {
+
+    color: #777;
+
+    font-size: 0.9rem;
+
+}
+
+
+/* Footer */
 
 footer {
 
     text-align: center;
 
-    margin-top: 60px;
+    margin-top: 70px;
 
-    color: #777;
+    color: #888;
 
 }
