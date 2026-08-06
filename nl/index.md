@@ -2,6 +2,8 @@
 layout: default
 title: Home
 language: nl
+permalink: /nl/home/
+translation: home
 ---
 
 <h2>Psychologie begrijpelijk uitgelegd</h2>
