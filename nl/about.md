@@ -2,6 +2,8 @@
 layout: default
 title: Over mij
 language: nl
+permalink: /nl/about/
+translation: about
 ---
 
 <h1>Over mij</h1>
