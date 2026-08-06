@@ -2,6 +2,8 @@
 layout: default
 title: Startseite
 language: de
+permalink: /de/home/
+translation: home
 ---
 
 <h2>Psychologie verständlich erklärt</h2>
