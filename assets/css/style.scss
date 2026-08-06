@@ -208,3 +208,76 @@ footer {
     color: #888;
 
 }
+
+/* Hero Profile */
+
+.hero {
+
+    text-align: center;
+
+    padding: 60px 20px;
+
+}
+
+
+.hero-profile {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+.profile-photo {
+
+    width: 220px;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    margin-bottom: 25px;
+
+    border: 6px solid $soft-pink;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+
+}
+
+
+.subtitle {
+
+    font-size: 1.1rem;
+
+    color: $accent;
+
+    margin-top: -10px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.hero-tagline {
+
+    font-size: 1.25rem;
+
+    max-width: 600px;
+
+    margin-top: 10px;
+
+}
+
+
+.flower {
+
+    font-size: 1.5rem;
+
+    color: $primary;
+
+}
