@@ -2,7 +2,10 @@
 layout: default
 title: Blog
 language: en
+permalink: /en/blog/
+translation: blog
 ---
+
 
 <h1>Psychology Blog</h1>
 
