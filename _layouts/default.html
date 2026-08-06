@@ -2,37 +2,43 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
 
-    <title>
-        {{ page.title }} | {{ site.title }}
-    </title>
+<meta charset="UTF-8">
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<title>
+{{ page.title }} | {{ site.title }}
+</title>
+
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 </head>
 
 
 <body>
 
+
 {% if page.language == "de" %}
 
-    {% include nav-de.html %}
+{% include nav-de.html %}
 
 {% elsif page.language == "nl" %}
 
-    {% include nav-nl.html %}
+{% include nav-nl.html %}
 
 {% else %}
 
-    {% include nav-en.html %}
+{% include nav-en.html %}
 
 {% endif %}
+
+
 
 <main>
 
 {{ content }}
 
 </main>
+
 
 
 <footer>
