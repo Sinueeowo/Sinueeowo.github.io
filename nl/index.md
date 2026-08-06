@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+language: nl
 ---
 
 <h2>Psychologie begrijpelijk uitgelegd</h2>
