@@ -12,12 +12,6 @@ translation: home
 
 <div class="hero-profile">
 
-<img
-src="{{ '/assets/images/Sophia 1.jpeg' | relative_url }}"
-alt="Sophia"
-class="profile-photo"
->
-
 <h1>Sophia</h1>
 
 <p class="subtitle">
