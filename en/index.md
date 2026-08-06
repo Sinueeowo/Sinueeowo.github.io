@@ -102,32 +102,38 @@ Read article →
 
 <h2>Explore Topics</h2>
 
+<div class="topics">
 
-<div class="card">
-
+<div class="topic-card">
+<h3>🧠 Behaviour Change</h3>
 <p>
-🧠 <strong>Behaviour Change</strong>
-<br>
 How people develop, maintain, and change behaviours.
 </p>
+</div>
 
+
+<div class="topic-card">
+<h3>💬 Everyday Psychology</h3>
 <p>
-💬 <strong>Everyday Psychology</strong>
-<br>
 Psychological concepts explained through everyday examples.
 </p>
+</div>
 
+
+<div class="topic-card">
+<h3>🌱 Sustainability Psychology</h3>
 <p>
-🌱 <strong>Sustainability Psychology</strong>
-<br>
-Understanding why people do (or do not) make sustainable choices.
+Understanding why people do or do not make sustainable choices.
 </p>
+</div>
 
+
+<div class="topic-card">
+<h3>🔬 Research Explained</h3>
 <p>
-🔬 <strong>Research Explained</strong>
-<br>
 Making psychological research understandable and accessible.
 </p>
+</div>
 
 </div>
 
