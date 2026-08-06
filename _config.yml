@@ -4,3 +4,8 @@ theme: minima
 
 author:
   name: Sophia
+
+languages:
+  - en
+  - de
+  - nl
