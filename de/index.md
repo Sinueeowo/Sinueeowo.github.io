@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Startseite
+language: de
 ---
 
 <h2>Psychologie verständlich erklärt</h2>
