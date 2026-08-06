@@ -14,7 +14,19 @@
 
 <body>
 
-{% include navigation.html %}
+{% if page.language == "de" %}
+
+    {% include nav-de.html %}
+
+{% elsif page.language == "nl" %}
+
+    {% include nav-nl.html %}
+
+{% else %}
+
+    {% include nav-en.html %}
+
+{% endif %}
 
 
 <header class="hero">
