@@ -2,6 +2,8 @@
 layout: default
 title: Home
 language: en
+permalink: /en/home/
+translation: home
 ---
 
 <section class="hero">
