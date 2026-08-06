@@ -2,6 +2,8 @@
 layout: default
 title: CV
 language: en
+permalink: /en/cv/
+translation: cv
 ---
 
 <h1>Curriculum Vitae</h1>
